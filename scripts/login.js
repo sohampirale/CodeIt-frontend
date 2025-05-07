@@ -25,7 +25,7 @@ const signupBtnElem=document.querySelector('.signup-btn');
 
 signupBtnElem.addEventListener('click',()=>{
     console.log('signup btn clicked');
-    window.location.href=URL+'/signup-pg';
+    window.location.href='./signup/signup-pg';
 })
 
 

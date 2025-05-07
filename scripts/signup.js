@@ -27,7 +27,7 @@ signupFormElem.addEventListener('submit',(event)=>{
 })
 
 loginBtnElem.addEventListener('click',()=>{
-    window.location=URL+'/';
+    window.location='index.html';
 })
 
 async function signupAttempt(){
